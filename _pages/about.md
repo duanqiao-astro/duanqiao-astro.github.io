@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 1<sup>st</sup> Year Ph.D. Student, University of Cambridge, Kavli Institute for Cosmology
+subtitle: 2<sup>nd</sup> Year Ph.D. Student, University of Cambridge, Kavli Institute for Cosmology
 
 profile:
   align: right

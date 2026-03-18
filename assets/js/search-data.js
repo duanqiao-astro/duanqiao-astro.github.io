@@ -30,10 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-started-ph-d-at-cambridge-rainbow",
-          title: 'Started Ph.D. at Cambridge! :rainbow: 🍀',
-          description: "",
-          section: "News",},{id: "news-presented-my-work-on-galaxy-mergers-in-the-epoch-of-reionization-at-the-crisol-conference-spain",
+        },{id: "news-presented-my-work-on-galaxy-mergers-in-the-epoch-of-reionization-at-the-crisol-conference-spain",
           title: 'Presented my work on Galaxy Mergers in the Epoch of Reionization at the...',
           description: "",
           section: "News",},{id: "projects-galaxy-mergers",

@@ -123,10 +123,10 @@
           class="more-authors"
           title="click to view {{ more_authors_hide }}"
           onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
-              element.html(more_authors_text);
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
+            element.html(more_authors_text);
           "
         >
           {{- more_authors_hide -}}
@@ -211,7 +211,14 @@
         {% if entry.pdf contains '://' %}
           <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          <a
+            href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}"
+            class="btn btn-sm z-depth-0"
+            role="button"
+            target="_blank"
+            rel="noopener noreferrer"
+            >PDF</a
+          >
         {% endif %}
       {% endif %}
       {% if entry.supp %}

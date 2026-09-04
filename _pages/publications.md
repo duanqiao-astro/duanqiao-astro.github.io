@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Thanks for stopping by! ☀️  Here are my lead-author publications — hope you enjoy exploring them! Have a nice day ~~~~
+description: ☀️ Here are my lead-author publications — hope you enjoy exploring them! Have a nice day ~~~~
 nav: true
 nav_order: 2
 ---

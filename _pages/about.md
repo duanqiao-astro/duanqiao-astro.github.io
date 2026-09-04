@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -30,9 +30,6 @@ latest_posts:
 
 <p>
   <i class="fa fa-envelope"></i>
-  <a href="mailto:miller.duan@outlook.com">miller.duan@outlook.com</a>
-  &nbsp;&nbsp;&nbsp;
-  <i class="fa fa-graduation-cap"></i>
   <a href="mailto:qd231@cam.ac.uk">qd231@cam.ac.uk</a>
 </p>
 
@@ -41,7 +38,7 @@ Hi hi! I’m Qiao — an astronomer studying galaxy formation and evolution with
 I'm especially interested in:
 
 - **Galaxy Stellar Populations** and **Star-Forming Properties**
+- **Spectral Energy Distribution (SED) fitting** — We developed the **star-forming main sequence (SFMS) prior** for modelling galaxies’ star-formation histories. This prior assumes that galaxies broadly follow the SFMS as they grow, while allowing substantial scatter around it.
 - **Galaxy Mergers**, including pair fractions, merger rates, and their role in galaxy mass assembly, as well as merger-driven <u>Star Formation</u> and <u>AGN Activity</u>
-- **Spectral Energy Distribution (SED) fitting** — I’m currently co-developing a new mode of the Prospector SED fitting code, **Prospector-γ**, with Sandro.
 
 I did my four-year Undergraduate Master's degree at the University of Manchester, where I had the great opportunity to join [Professor Christopher Conselice](https://sites.google.com/view/cconselice/home?authuser=0)'s EPOCHS research group. During that time, I developed a deep fascination with Galaxies 💫
